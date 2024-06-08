@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    background: url('clouds.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the navbar */
+    color: rgb(255, 250, 250);
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: rgb(254, 249, 249);
+}
+
+
+
+
+.card {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for cards */
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-unstyled li {
+    font-size: 1.1rem;
+}
+
+.weather-title {
+    font-weight: 700;
+    color: #2f6eb2;
+}
+
+
+.content-overlay {
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay to make text readable */
+    padding: 20px;
+    border-radius: 10px;
+}
